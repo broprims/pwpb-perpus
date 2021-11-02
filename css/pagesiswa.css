@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: 	#F5F5F5;
+    margin-bottom: 5rem;
+}
+
+
+.nav {
+    height: 9vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    float: top;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+    padding: 6vh;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding: 2vh;
+    cursor: pointer;
+}
+
+.nav ul li a:hover {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+/*DASHBOARD*/
+
+.d1 {
+    display: flex;
+    justify-content: center;
+}
+
+.d2 {
+    width: 66.666667%;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0.5rem;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+.search-and-user {
+    display: grid;
+    grid-template-columns:  auto;
+    grid-column-gap: 50px;
+    align-items: center;
+    background: #f0f1f6;
+}
+
+.search-and-user form {
+    position: relative;
+}
+
+.search-and-user .searchlah {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    background: #fff;
+    color: #333;
+    border-radius: 4px;
+    box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.075);
+}
+
+.search-and-user ::placeholder {
+    color: #909090;
+}
+
+.search-and-user form svg {
+    width: 26px;
+    height: 26px;
+    fill: black;
+}
+
+.search-and-user form button {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/*SEARCH AND USER*/
+
+.c1 {
+    display: flex;
+    justify-content: center;
+}
+
+.c2 {
+    width: 110vh;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0.5rem;
+    font-family: sans-serif;
+    margin-bottom: 3vh;
+}
+
+
+
+/*BUKU */
+
+.b1 {
+    display: flex;
+    justify-content: center;
+}
+
+.b2 {
+    width: auto;
+    background-color: white;
+    padding: 50px 60px;
+    border-radius: 0.5rem;
+    font-family: sans-serif;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px 52px;
+}
+
+
+
+.book {
+    width: 27vh;
+    padding: 4vh;
+    background-color: #F5F5F5;
+}
+
+
+
+.imgbuku {
+    width: 19vh;
+    text-align: center;
+}
+.imgbuku img {
+    width: 150px;
+    height: 226px;
+}
+
+.desc {
+    padding: 1.2vh 0 ;
+}
+.desc h1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+.pengarang {
+    padding: 5px 0;
+    text-decoration: none;
+    color: #808080;
+    text-transform: capitalize;
+}
+.link {
+    font-size: 14px;
+    text-decoration: none;
+    color: transparent;
+}
+
+/*.link {*/
+/*    padding: 5px ;*/
+/*}*/
+/*.btn {*/
+/*    padding: 5px 54px;*/
+/*    background-color: transparent;*/
+/*    color: #000;*/
+/*    border: solid #000 2px;*/
+/*    font-size: 15px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.btn:hover {*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*}*/
+
+
+/*DETAIL*/
+
+
+.db1 {
+    display: flex;
+    justify-content: center;
+}
+
+.db2 {
+    width: 105vh;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0.5rem;
+    font-family: sans-serif;
+    margin-top: 3vh;
+}
+
+.atas_detail {
+    width: auto;
+    height: auto;
+}
+
+
+.detailbuku {
+    width: auto;
+    padding: 2vh;
+    background-color: #fff;
+    display: flex;
+}
+.coverbuku {
+    width: 19vh;
+    text-align: center;
+}
+.coverbuku img {
+    width: 230px;
+    height: 326px;
+}
+
+.teksjudul {
+    position: relative;
+    bottom: 0;
+    display: block;
+    padding: 1.2vh 10px ;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.teksjudul h1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.pelunis {
+    padding: 5px 0;
+}
+.teksjudul a {
+    font-size: 20px;
+    color: #202020;
+    text-decoration: none;
+}
+
+
+
+
+
+.bawah_detail {
+    height: auto;
+    width: auto;
+    padding: 2vh;
+}
+
+.detailnya {
+    width: 100%;
+}
+
+.detailnya:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #606060;
+}
+
+
+.teksjudul2 {
+    display: block;
+    padding-top: 1vh ;
+    text-align: left;
+
+}
+
+.teksjudul2 tr th {
+    width: 30vh;
+}
+.detailnya tr td span {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #606060;
+}
+
+.teksjudul2 tr {
+    line-height: 2rem;
+}
+
+.teksjudul2 tr th {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.teksjudul2 tr td {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+.aturactiondetail {
+    padding-top: 3vh;
+}
+
+.actiondetail {
+    width: auto;
+    background-color: transparent;
+    color: #000;
+    border: solid #000 2px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    float: right;
+}
+.actiondetail:hover {
+    color: #fff;
+    background-color: black;
+}
+.backdetail {
+    margin-right: 10px;
+}
+.pinjamdetail:hover {
+    color: #fff;
+    background-color: forestgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HISTORY*/
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.h2 {
+    width: 70.666667%;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0.5rem;
+    font-family: sans-serif;
+}
+
+
+
+
+.headh1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: auto;
+}
+
+strong, b {
+    font-weight: 500;
+}
+.Button {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    outline: none ;
+    font-weight: 500;
+    background-color: #fff;
+    border: 0;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.24s, box-shadow 0.24s, color 0.24s;
+    color: #3c4257;
+}
+.Button:hover {
+    box-shadow: 1px 2px 3px #888888;
+}
+.Button span {
+    line-height: 20px;
+}
+.Button svg {
+    margin-right: 8px;
+    fill: #4f566b;
+}
+.Card {
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.08), 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+}
+.Card__content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Card__content a {
+    text-decoration: none;
+}
+.Card__content2 {
+    display: flex;
+    align-items: center;
+}
+.hapus:hover {
+    background-color: #FF3333;
+    border: solid darkred 2px;
+}
+.edit:hover {
+    background-color: #DFDF14;
+    border: solid #B5B53F 2px;
+}
+
+
+.ml-auto {
+    margin-right: 10px;
+}
+
+.Card__content--border {
+    box-shadow: inset 0 -1px #e3e8ee;
+}
+.Table {
+    width: 100%;
+}
+.Table tbody td {
+    font-size: 14px;
+    color: #3c4257;
+    font-weight: 400;
+    line-height: 20px;
+}
+.Table thead {
+    background-color: #f7fafc;
+}
+.Table thead td {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #1a1f36;
+    font-weight: 500;
+    vertical-align: middle;
+    line-height: 20px;
+    user-select: none;
+}
+.Table tr td {
+    box-shadow: inset 0 -1px #e3e8ee;
+    padding: 8px;
+}
+.Table tr td:first-child {
+    padding-left: 20px;
+}
+.Table__header-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Table__header-item svg {
+    margin-left: 8px;
+    fill: #8792a2;
+}
+
+
+
+
+/*DISPLAY*/
+
+#dashboard {
+    display: block;
+}
+
+#buku {
+    display: block;
+}
+#history {
+    display: block;
+}
+#profile {
+    display: block;
+}
+
+
+
+
+
+
+/*PROFILE*/
+
+.p1 {
+    display: flex;
+    justify-content: center;
+}
+
+.p2 {
+    width: auto;
+    background-color: white;
+    padding: 6vh;
+    border-radius: 0.5rem;
+    font-family: sans-serif;
+}
+
+
+.halutama {
+    padding: 2rem;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.08), 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.atas {
+    height: 22rem;
+    padding: 2rem 4rem;
+    width: auto;
+    background-color: #F5F5F5;
+    display: flex;
+}
+.bawah {
+    width: auto;
+    background-color: transparent;
+    display: block;
+    justify-content: center;
+}
+
+.bungkus {
+    height: 20rem;
+    width: 20rem;
+    background-color: transparent;
+}
+
+.coverimg {
+    width: 18rem;
+    height: 18rem;
+    background-color: transparent;
+}
+
+.textatas {
+    padding: 17vh 0 0 0;
+}
+
+.data tr {
+    display: flex;
+}
+
+.data {
+    width: auto;
+}
+
+.data tr, td {
+    text-transform: capitalize;
+}
+
+.dataprofile {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #808080;
+    letter-spacing: 1px;
+}
+
+.fullname {
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px 0 5px 0;
+    letter-spacing: 4px;
+    word-spacing: -5px;
+}
+
+.level {
+    font-family: sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.aturaction {
+    padding-top: 1vh;
+}
+
+.action{
+    width: auto;
+    background-color: transparent;
+    color: #000;
+    border: solid #000 2px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    float: right;
+}
+.action:hover {
+    color: #fff;
+}
+.edit:hover {
+    background-color: #DFDF14;
+    border: solid #B5B53F 2px;
+}
+
+
+.aturdata {
+    display: flex;
+    width: auto;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.data2 {
+    width: auto;
+    display: flex;
+}
+
+.data2 tr {
+    display: flex;
+    padding: 5px 0;
+}
+
+.data2 tr th {
+    width: 150px;
+    text-align: left;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.data2 tr td {
+    width: 300px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.datakanan tr td {
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

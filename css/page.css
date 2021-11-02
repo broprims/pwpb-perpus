@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    height: 7vh;
+    width: 100%;
+    background-color: #606060;
+    float: top;
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+.imgnav {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.logout a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.logout a:hover {
+    color: blue;
+}
+
+.aturnav {
+    float: right;
+}
+
+
+
+
+
+.important {
+    width: 100%;
+    height: auto;
+    padding: 3vh 8vh 0 8vh;
+
+}
+
+.kiri {
+    width: 40vh;
+    height: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    height: 8vh;
+    width: 40vh;
+    background-color: dodgerblue;
+    padding: 2vh 4vh;
+}
+
+.pengaturuser {
+    display: flex;
+}
+
+.foto {
+    height: 35px;
+    width: 35px;
+}
+
+.username {
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+.kanan {
+    height: 40vh;
+    width: 118vh;
+    float: right;
+    padding: 6rem 4rem;
+}
+.kananadmin {
+    background-color: darkred;
+}
+.kananpetugas {
+    background-color: darkorange;
+}
+.kanansiswa {
+    background-color: dodgerblue;
+}
+
+.status {
+    font-family: sans-serif;
+    color: white;
+    font-size: 6rem;
+}
+
+.pagefitur {
+    width: 40vh;
+    height: auto;
+    margin-top: 10px;
+}
+
+.fitur {
+    height: 8vh;
+    width: 40vh;
+    background-color: #E0E0E0;
+    border: 1px solid darkgray;
+    padding: 2vh 0 0 2vh;
+}
+
+.fitur a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section1 {
+    height: 100vh;
+    width: 100%;
+    padding-top: 15vh;
+}
+
+#transparent {
+    height: 70vh;
+    width: 130vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#wadah {
+    height: 68vh;
+    width: 128vh;
+    background-color: transparent;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -69vh;
+}
+
+#btnalihform a {
+    text-decoration: none;
+    color: white;
+    background-color: white;
+}
+
+
+#kanan {
+    height: 68vh;
+    width: auto;
+    background-color: #fff;
+    opacity: none;
+    float: right;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#kanan h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-top: 7vh;
+}
+
+#input {
+    padding-top: 5vh;
+}
+
+.input {
+    margin-top: 1vh;
+    height: 6vh;
+    width: 45vh;
+    border-radius: 6px;
+    border: 2px #606060 solid;
+    padding: 0 0 0 10px;
+}
+
+
+
+/*--------------- display form password----------------*/
+.input_box {
+    width: 45.5vh;
+    margin-top: 1vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.akun {
+    display: flex;
+    justify-content: center;
+}
+
+.eye {
+    margin-left: -7%;
+}
+
+.input5 {
+    margin-top: 0;
+}
+
+.eye svg {
+    fill: #606060;
+    cursor: pointer;
+}
+
+#openeye {
+    display: none;
+}
+
+.btn2 {
+    width: 55vh;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.buttonbawah {
+    width: 25vh;
+    height: 5vh;
+    margin-top: 5vh;
+    background-color: transparent;
+    color: #000;
+    border: solid #000 2px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.buttonbawah:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cancelbtn:hover {
+    background-color: red;
+}
+
+#selectgender {
+    margin-top: 10px;
+    height: 6vh;
+    width: 45vh;
+    border-radius: 6px;
+    border: 2px #606060 solid;
+    padding: 0 0 0 10px;
+}
+
+#selectgender option {
+    opacity: 0.6;
+}
